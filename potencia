@@ -1,0 +1,15 @@
+
+public class potencia {
+    
+    public static void main(String[] args) {
+        int a[];
+        int i = 11;
+        int t;
+        a = new int[i];
+        for (t=0; t<11; t++) {
+            a[t] = t*=t;
+            
+        }
+    }
+    
+}
