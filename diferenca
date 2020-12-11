@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class diferenca {    
+    public static void main(String[] args) {
+        int a[];
+        int b[];
+        int c[];
+        int i = 10;
+        int n;
+        int t = 0;
+        a = new int[i];
+        b = new int[i];
+        c = new int[i];
+        for (n=0; n<10; n++) {
+            System.out.print("Digite um número: ");
+            Scanner ler = new Scanner(System.in);
+            a[n] = ler.nextInt();
+        }
+        for (n=0; n<10; n++) {
+            System.out.print("Digite um número: ");
+            Scanner ler = new Scanner(System.in);
+            b[n] = ler.nextInt();
+        }
+        for (n=0; n<10; n++) {
+            if (a[n] != b[n]) {
+                c[n] = a[n];
+            }
+        }
+    }
+    
+}
